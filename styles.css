@@ -23,6 +23,14 @@
     font-size: 3rem;
     padding: 20px;
     margin: 20px;
+    height: auto;
+    width: 400px;
+    word-wrap: break-word;
+}
+
+.value {
+    text-align: right;
+    margin-top: 10px;
 }
 
 .clear-delete {
@@ -34,8 +42,14 @@
 .clear-btn {
     background-color: #FAF0D7;
 }
+.clear-btn:hover {
+    background-color: #fae0a0;
+}
 .delete-btn {
     background-color: #F4BFBF;
+}
+.delete-btn:hover{
+    background-color: #f19d9d;
 }
 .erase-btns {
     font-size: 20px;
@@ -54,7 +68,13 @@
     margin: 20px;
 }
 
-.btn {
+.btn{
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+}
+.op-btn {
     font-size: 20px;
     padding: 20px;
     border: none;

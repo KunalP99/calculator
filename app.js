@@ -1,3 +1,24 @@
+// Buttons
+const numBtns = document.querySelectorAll('.btn');
+const opBtns = document.querySelectorAll('.op-btns');
+
+let value = document.querySelector('.value');
+let arr = [];
+
+numBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+        let result = '';
+        result += e.target.innerText;
+        value.textContent += result;
+    });
+});
+
+console.log(arr);
+
+const displayValue = () => {
+
+};
+
 const add = (a, b) => {
     return a + b;
 };
