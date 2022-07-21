@@ -17,14 +17,39 @@
     border: 5px solid black;
 }
 
+.display {
+    background-color: #7b7a77;
+    color: white;
+    font-size: 3rem;
+    padding: 20px;
+    margin: 20px;
+}
+
 .clear-delete {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.clear-btn {
+    background-color: #FAF0D7;
+}
+.delete-btn {
+    background-color: #F4BFBF;
+}
+.erase-btns {
+    font-size: 20px;
+    padding: 10px 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
 }
 
 .numbers-operators-container {
     display: grid;
-    grid-template-columns: repeat(4, 100px);
+    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     margin: 20px;
 }
@@ -32,5 +57,10 @@
 .btn {
     font-size: 20px;
     padding: 20px;
+    border: none;
     cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #7b7a77;
 }
