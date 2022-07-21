@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 5px solid black;
+}
+
+.clear-delete {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.numbers-operators-container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 10px;
+    margin: 20px;
+}
+
+.btn {
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
