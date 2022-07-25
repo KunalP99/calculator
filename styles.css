@@ -23,14 +23,17 @@
     font-size: 3rem;
     padding: 20px;
     margin: 20px;
-    height: auto;
+    min-height: 90px;
     width: 400px;
     word-wrap: break-word;
 }
 
+.typed-value {
+    font-size: 30px;
+}
 .value {
     text-align: right;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .clear-delete {
@@ -68,7 +71,7 @@
     margin: 20px;
 }
 
-.btn{
+.btn {
     font-size: 20px;
     padding: 20px;
     border: none;
@@ -80,7 +83,19 @@
     border: none;
     cursor: pointer;
 }
+.equal-btn {
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+}
 
 .btn:hover {
+    background-color: #7b7a77;
+}
+.op-btn:hover {
+    background-color: #7b7a77;
+}
+.equal-btn:hover {
     background-color: #7b7a77;
 }
